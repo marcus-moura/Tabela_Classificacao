@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styleTabela.css">
+    <title>Tabela de Classificação</title>
+</head>
+
+<body>
+  <div class="titulo">
+    <h1>Tabela de classificação</h1>
+ 
+
+  <table style="width:100%">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Vitórias</th>
+        <th>Empates</th>
+        <th>Derrotas</th>
+        <th>Pontos</th>
+        <th colspan="4">Ações</th>
+      </tr>
+    </thead>
+    <tbody id="tabelaJogadores">
+      <!-- <tr> 
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><button onClick="adicionarVitoria()">Vitória</button></td>
+        <td><button onClick="adicionarEmpate()">Empate</button></td>
+        <td><button onClick="adicionarDerrota()">Derrota</button></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><button onClick="adicionarVitoria()">Vitória</button></td>
+        <td><button onClick="adicionarEmpate()">Empate</button></td>
+        <td><button onClick="adicionarDerrota()">Derrota</button></td>
+      </tr>
+    -->
+    <div class="player">
+      <input type="text" name="player" id="player" >
+      <button onClick="addJogadores()">Add Jogador</button>
+    </div>
+  </tbody>
+  </table>
+</div>
+<script src="js/tabela.js"></script>
+</body>
+</html>
